@@ -12,7 +12,7 @@ import triggerWords
 
 __author__ = "Jacob Sanford"
 __copyright__ = "Copyright 2014"
-__license__ = "GPL"
+__license__ = "MIT"
 __version__ = "1.0"
 __maintainer__ = "Jacob Sanford"
 __email__ = "jsanford@unb.ca"
