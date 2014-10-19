@@ -8,7 +8,7 @@ triggers = {
             [
                 {
                     'weight': 20,
-                    'uri': 'http://giphy.com/gifs/YTbZzCkRQCEJa'
+                    'uri': 'http://media1.giphy.com/media/YTbZzCkRQCEJa/giphy.gif'
                 },
                 {
                     'weight': 5,
