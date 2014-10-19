@@ -7,8 +7,12 @@ triggers = {
         'targets':
             [
                 {
-                    'weight': 50,
+                    'weight': 20,
                     'uri': 'http://giphy.com/gifs/YTbZzCkRQCEJa'
+                },
+                {
+                    'weight': 5,
+                    'uri': 'http://i.imgur.com/Z1PCCTC.jpg'
                 }
             ]
     }
