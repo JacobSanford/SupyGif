@@ -30,7 +30,7 @@ class SupyGif(callbacks.Plugin) :
                                   re.IGNORECASE
                                   )
                 if match:
-                    if random.randint(0, self.total_weight) < match_data['probability']:
+                    if random.randint(0, 100) < match_data['probability']:
                         gif_image = GifImage(match_phrase, ).get()
                         if gif_image:
                             matches_to_display[gif_image['uri']] = gif_image['weight']
