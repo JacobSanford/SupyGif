@@ -2,7 +2,7 @@
 """
 
 triggers = {
-    'celebrate': {
+    'celebrat(e|ion)': {
         'probability': 25,
         'targets':
             [
