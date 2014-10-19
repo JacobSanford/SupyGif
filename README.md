@@ -1,5 +1,5 @@
 # SupyGif
-### Supybot plugin designed to interject gif images based on trigger phrases.
+### Supybot plugin to interject gif images based on trigger phrases.
 
 Listen for mentions of phrases in channels and reply with a message, generally a GIF link.
 
