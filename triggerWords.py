@@ -79,7 +79,7 @@ triggers = {
             [
                 {
                     'weight': 20,
-                    'uri': 'http://imgur.com/dOd5yIW'
+                    'uri': 'http://i.imgur.com/dOd5yIW.jpg'
                 },
                 {
                     'weight': 20,
