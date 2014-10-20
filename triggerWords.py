@@ -15,5 +15,15 @@ triggers = {
                     'uri': 'http://i.imgur.com/Z1PCCTC.jpg'
                 }
             ]
+    },
+    'oops': {
+        'probability': 20,
+        'targets':
+            [
+                {
+                    'weight': 20,
+                    'uri': 'http://i.imgur.com/YaEedqD.gif'
+                }
+            ]
     }
 }
