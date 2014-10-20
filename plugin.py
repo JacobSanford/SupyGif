@@ -22,7 +22,7 @@ class SupyGif(callbacks.Plugin) :
     threaded = True
     def doPrivmsg(self, irc, msg) :
         if(self.registryValue('enable', msg.args[0])):
-            matches_to_display = {}
+            matches_to_display = []
             for match_phrase, match_data in triggerWords.triggers.iteritems():
                 match = re.search(
                                   match_phrase,
@@ -33,16 +33,21 @@ class SupyGif(callbacks.Plugin) :
                     if random.randint(0, 100) < match_data['probability']:
                         gif_image = GifImage(match_phrase, ).get()
                         if gif_image:
-                            matches_to_display[gif_image['uri']] = gif_image['weight']
+                            matches_to_display.append(
+                                {
+                                    'uri': gif_image['uri'],
+                                    'weight': gif_image['weight'],
+                                    'text': match_data['text']
+                                }
+                            )
 
             if len(matches_to_display) > 0:
-                sorted_images = sorted(matches_to_display.items(), key=operator.itemgetter(1))
-                (chosen_uri, chosen_key) = sorted_images[0]
+                sorted_images = sorted(matches_to_display, key=lambda k: k['weight'])
                 time.sleep(random.random() * 5)
                 irc.queueMsg(
                              getattr(ircmsgs,'privmsg')(
                                              msg.args[0],
-                                             chosen_uri
+                                             sorted_images[0]['text'] + sorted_images[0]['uri']
                                              )
                              )
 

@@ -4,6 +4,7 @@
 triggers = {
     'celebrat(e|ion)': {
         'probability': 25,
+        'text': 'Celebrate! ',
         'targets':
             [
                 {
@@ -18,6 +19,7 @@ triggers = {
     },
     'oops': {
         'probability': 20,
+        'text': 'Oops! ',
         'targets':
             [
                 {
