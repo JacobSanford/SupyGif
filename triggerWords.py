@@ -23,6 +23,14 @@ triggers = {
                     'uri': 'http://media1.giphy.com/media/YTbZzCkRQCEJa/giphy.gif'
                 },
                 {
+                    'weight': 10,
+                    'uri': 'http://i.imgur.com/3t643vZ.gif'
+                },
+                {
+                    'weight': 10,
+                    'uri': 'http://i.imgur.com/4laa7B9.gif'
+                },
+                {
                     'weight': 5,
                     'uri': 'http://i.imgur.com/Z1PCCTC.jpg'
                 }
