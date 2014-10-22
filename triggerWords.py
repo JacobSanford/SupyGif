@@ -47,6 +47,17 @@ triggers = {
                 }
             ]
     },
+    'champagne': {
+        'probability': 40,
+        'text': 'mmmmMMMaaah-haa...the French...champagne ',
+        'targets':
+            [
+                {
+                    'weight': 20,
+                    'uri': 'https://www.youtube.com/watch?v=VFevH5vP32s'
+                }
+            ]
+    },
     'roommate': {
         'probability': 70,
         'text': 'Leah\'s Roomate ',
