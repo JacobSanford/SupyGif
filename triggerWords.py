@@ -47,6 +47,17 @@ triggers = {
                 }
             ]
     },
+    'fail': {
+        'probability': 20,
+        'text': 'Fail ',
+        'targets':
+            [
+                {
+                    'weight': 20,
+                    'uri': 'http://38.media.tumblr.com/652767204a0d0d65e016dcfe7a6f8ea0/tumblr_n8kzyuZPUA1qdlh1io1_400.gif'
+                }
+            ]
+    },
     'champagne': {
         'probability': 40,
         'text': 'mmmmMMMaaah-haa...the French...champagne ',
