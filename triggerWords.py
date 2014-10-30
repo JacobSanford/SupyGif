@@ -36,6 +36,17 @@ triggers = {
                 }
             ]
     },
+    '(jian|gomeshi)': {
+        'probability': 50,
+        'text': '',
+        'targets':
+            [
+                {
+                    'weight': 20,
+                    'uri': 'http://www.reactiongifs.com/r/jack.gif'
+                }
+            ]
+    },
     'oops': {
         'probability': 20,
         'text': 'Oops! ',
