@@ -10,6 +10,10 @@ triggers = {
                 {
                     'weight': 20,
                     'uri': 'http://i.imgur.com/ivjVA.jpg'
+                },
+                {
+                    'weight': 20,
+                    'uri': 'http://www.reactiongifs.com/r/jack.gif'
                 }
             ]
     },
