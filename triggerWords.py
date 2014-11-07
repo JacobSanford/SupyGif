@@ -95,6 +95,17 @@ triggers = {
                 }
             ]
     },
+    'exercise': {
+        'probability': 50,
+        'text': 'Exercise! ',
+        'targets':
+            [
+                {
+                    'weight': 20,
+                    'uri': 'https://www.youtube.com/watch?v=TIfAkOBMf5A'
+                }
+            ]
+    },
     'twer(k|king)': {
         'probability': 70,
         'text': 'Twerk  ',
