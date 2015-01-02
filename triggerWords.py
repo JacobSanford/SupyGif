@@ -3,10 +3,14 @@
 
 triggers = {
     'amaz(e|ing)': {
-        'probability': 20,
+        'probability': 40,
         'text': 'Uhhh.. ',
         'targets':
             [
+                {
+                    'weight': 40,
+                    'uri': 'http://i.imgur.com/whjcDLZ.gif'
+                },
                 {
                     'weight': 20,
                     'uri': 'http://i.imgur.com/ivjVA.jpg'
